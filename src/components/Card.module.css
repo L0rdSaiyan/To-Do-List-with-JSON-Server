@@ -1,0 +1,49 @@
+:root{
+
+    --color-white: #ffff;
+    --color-dark1: #473f3f;
+    --color-dark2: #3b3838;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #b040ff;
+
+}
+
+.card
+{
+    border: 1px solid hsla(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 6px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 3%;
+    text-align: center;
+    width: 12%;
+    height: auto;
+    display: inline-block;
+    background-color: var(--color-dark2);
+}
+
+.card .card_image
+{
+    max-width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card .card_title
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: hsl(0, 6%, 97%)
+}
+
+.card .card_text
+{
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 100%)
+
+}
